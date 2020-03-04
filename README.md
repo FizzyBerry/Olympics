@@ -1,5 +1,5 @@
-This consol game is about fight between gladiators at olypmics. Gladiator is human, beast or half human half beast (berserker). Fight can be with two of them or in squads. After the battle Cesar judge if the loser is going to die or not, it depends on how many figths was at all. If this number is divisible by 3 they die if not cesar let them live. Winners are gaining plus 2 points on their base damage and rapidity.
-Each breed have diffrents statistic :
+This program simulates fights between gladiators at Olympics. Gladiator can be human, beast or half human half beast (berserker). Gladiators are fighting between each other solo or in squads. After the battle Cesar judges if the loser is going to die or not, depending on the total number of fights that have already taken place at Olympics. If this number is divisible by 3 they die if not cesar will let them live. Winners are gaining plus 2 points on their base damage and rapidity.
+Each breed have diffrent statistics :
 - Human : 
         MAX_HEALTH = 200
         BASE_DAMAGE = 30
@@ -17,4 +17,4 @@ Each breed have diffrents statistic :
         BASE_DAMAGE = 35
         BASE_RAPIDITY = 5
         BASE_DEFENCE = 15
-        *When health is under 25% BASE_DAMAGE is multiply by two and BASE_DEFENCE equals zero*
+        *When health is under 25% BASE_DAMAGE is multiply by two and BASE_DEFENCE equals zero (becouse he is throwing away his shield)*
